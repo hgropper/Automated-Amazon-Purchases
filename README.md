@@ -4,7 +4,7 @@ At the start of the coronavirus many people were scrambling to gather computer p
 ## Problems:
 - Amazon's anti bot security: Amazon is pretty clever in how they deal with bots navigating their website, but there are some work arounds. 
 I found that faking the user-agent and cookies allowed me to navigate the website with my program. 
-- IP blocks: This was easily solved my implementng an automatic vpn switcher switcher in my program when needed.
+- IP blocks: This was easily solved my implementng an automatic vpn switcher in my program when needed.
 
 ### VPN Rotater
 Amazon doesn't like when people are bombarding their servers with mutliple requests. Especially when hundreds of requests are coming from one person or internet address. So, my IP address would frequently become blocked, and I would not be able to make requests. Solution: rotate my IP address with [NordVPN](https://nordvpn.com/cybersecurity-site/), when needed. To do this in my program I used a module someone else created called [NordVPN Switcher](https://pypi.org/project/nordvpn-switcher/).
