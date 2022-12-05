@@ -14,6 +14,9 @@ Amazon doesn't like when people are bombarding their servers with mutliple reque
 ## How does my program work?
 - I would have have multiple ASIN codes scanned by my program 24/7 (Amazon Standard Identification Number) of products I were interested in buying.
 - Once my program detected that an item was in stock it would then transition to the buying phase
-- In this phase my program would disconnect from the VPN and immediately purchase the item I wanted
+- In this phase my program would disconnect from the VPN 
+- Login to Amazon with my account information
+- Purchase the item I wanted as fast as I could
+- If the purchase was successful, then send a text message and end the program OTHERWISE go back to the top (step 1)
 - After the purchase I used [Twilio's](https://www.twilio.com/) service to notify me of the purchase
 - program ends
